@@ -80,6 +80,11 @@ public class vsdxBatchConvert
 		    					// TODO Auto-generated catch block
 		    					e.printStackTrace();
 		    				}
+		    				catch (IllegalArgumentException e)
+		    				{
+		    					// TODO Auto-generated catch block
+		    					e.printStackTrace();
+		    				}
 		    				catch (SAXException e)
 		    				{
 		    					// TODO Auto-generated catch block
